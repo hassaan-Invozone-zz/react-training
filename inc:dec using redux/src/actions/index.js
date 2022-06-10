@@ -1,8 +1,7 @@
-export const incNumber = (num) => {
+export const incNumber = (num,name) => {
     return {
         type: 'INCREMENT',
         payload: num,
-        name: 'hassaan'
     }
 }
 
